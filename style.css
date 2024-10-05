@@ -1,0 +1,63 @@
+.pf-main-page {
+    background-image: URL("https://img.freepik.com/premium-photo/slate-grey-background_947865-81933.jpg?w=740");
+    background-size: cover;
+    height: 270vh;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.first-page{
+    height: 100vh;
+    margin: 0px 70px 70px 70px;
+}
+
+.pf-main-heading {
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+.lokesh {
+    margin: 80px;
+}
+
+.pf-contact {
+    font-size: 24px;
+    color: #000405;
+}
+
+.obj {
+    padding:20px;
+}
+
+.online{
+    margin: 10px 70px 10px 70px;
+}
+.pf-image {
+    height: 200px;
+    width: 150px;
+    margin: 50px;
+}
+
+.about-me {
+    margin: 70px;
+    color: #ffffff;
+}
+
+.pf-card {
+    background-color: aquamarine;
+    color: #616e7c;
+    width: 500px;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 45px;
+}
+
+.pf-card0 {
+    background-color: aquamarine;
+    color: #616e7c;
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
