@@ -7,8 +7,11 @@
 }
 
 .first-page{
-    height: 100vh;
-    margin: 0px 70px 70px 70px;
+    background-image: URL("https://img.freepik.com/premium-photo/slate-grey-background_947865-81933.jpg?w=740");
+    background-size: cover;
+    padding: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
 }
 
 .pf-main-heading {
@@ -26,10 +29,6 @@
     color: #000405;
 }
 
-.obj {
-    padding:20px;
-}
-
 .online{
     margin: 10px 70px 10px 70px;
 }
@@ -40,8 +39,12 @@
 }
 
 .about-me {
-    margin: 70px;
     color: #ffffff;
+    background-image: URL("https://img.freepik.com/premium-photo/slate-grey-background_947865-81933.jpg?w=740");
+    background-size: cover;
+    padding: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
 }
 
 .pf-card {
@@ -61,3 +64,14 @@
     margin-bottom: 50px;
 }
 
+.change-btn {
+    text-align: center;
+}
+
+.unordered-list {
+    list-style-type: circle;
+}
+
+.obj {
+    margin-bottom: 20px;
+}

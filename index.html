@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="pf-main-page">
+    <div id="sectionHomePage">
         <div class="first-page">
             <div class="d-flex flex-row">
             <img src="Pass Photo.jpeg" class="pf-image" />
@@ -26,14 +26,14 @@
             </div>    
         <div class="d-flex flex-row justify-content-between">
             <div class="pf-card">
-                <ul> SKILLS 
+                <ul class="unordered-list"> SKILLS- 
                     <li>Html, Css, JavaScript</li>
                     <li>Python</li>
                     <li>SQL</li>
                 </ul>
             </div>
             <div class="pf-card">
-                <ul> WEBDEV PROJECTS
+                <ul class="unordered-list"> WEBDEV PROJECTS-
                     <li>Weather App and Currency-Converter using API</li>
                     <li>Stopwatch and Calculator Web App</li>
                     <li>Tic-Tac-Toe and Rock-Paper-Scissor Web games</li>
@@ -42,16 +42,22 @@
                 </ul>
             </div>
         </div>
-        </div>        
+        <div class="change-btn">
+            <button class="btn btn-dark" onclick="display('sectionAboutMe')">About Me</button>
+        </div>
+        </div>
+    </div>
+    <div id="sectionAboutMe">       
         <div class="about-me">
-            <h1 class="obj text-primary">About Me:</h1>
-            <h4 class="obj"> OBJECTIVE </h4>
+            <h1 class="obj"> About Me- </h1>
             <p class="obj">
-                To secure an entry level position in an organisation that will allow me to utilise my skills,
-            learn new ones and contribute to the growth of the company while gaining valuable experience.
+                Lokesh is an intermediate UX/UI designer who can design static websites in quick time and with perfect design and 
+            he has done few internships and have good amount of web applications built by him. He is an expert in bootstrap and 
+            javascript code reusable snippets in the web design to increase efficiency and reduce time. His objective is to secure an entry level 
+            position in an organisation that will allow me to utilise my skills, learn new ones and contribute to the growth of the company while gaining valuable experience.
             </p>
             <div class="pf-card0">
-                <ul> EDUCATION
+                <ul class="unordered-list"> EDUCATION-
                     <li>Graduation | Sreyas Institute of Engineering and Technology | CSE(AI&ML) | CGPA: 6.8
                         |(2020-2024)</li>
                     <li>XII(Intermediate) | Geethaanjali Junior College | 92.6%| 2020</li>
@@ -59,7 +65,7 @@
                 </ul>
             </div>
             <div class="pf-card0">
-                <ul> ACADEMIC PROJECTS 
+                <ul class="unordered-list"> ACADEMIC PROJECTS- 
                     <li>AIPaved Road Safety Guard</li>
                     <p>To detect potholes in road images.By collecting and annotating a dataset of such images,it
                        aims to enhance early detection and reduce accidents and maintenance costs.</p>
@@ -72,7 +78,7 @@
             </div>
             <div class="d-flex flex-row justify-content-between">
                 <div class="pf-card">
-                    <ul> CERTIFICATIONS 
+                    <ul class="unordered-list"> CERTIFICATIONS-
                         <li>NextWave Frontend Technologies</li>
                         <li>Microsoft PowerBi</li>
                         <li>AI/MLforGeodata Analysis By ISRO</li>
@@ -80,15 +86,19 @@
                     </ul>
                 </div>
                 <div class="pf-card">
-                    <ul> ACHIEVEMENTS
+                    <ul class="unordered-list"> ACHIEVEMENTS-
                         <li>Prodigy Infotech Internship on Web Development</li>
                         <li>Cleared JEE Mains with 92 percentile and appeared for JEE Advanced</li>
                         <li>Wonmultiple Sports Medals in Inter-School and College competitions</li>
-                        <li>MathOlympiadcity rank 2 in the year 2016</li>
+                        <li>Math Olympiad city rank 2 in the year 2016</li>
                     </ul>
                 </div>            
-            </div>   
+            </div>
+            <div class="change-btn">  
+                <button class="btn btn-dark" onclick="display('sectionHomePage')">Home Page</button>
+            </div> 
         </div>
     </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script> 
 </body>
 </html>
